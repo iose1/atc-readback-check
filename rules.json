@@ -1,0 +1,17 @@
+{
+  "source": "ICAO Doc 4444 (PANS-ATM) 4.5.7.5 and Annex 10 Vol II 5.2.1.7.3 - items the pilot must read back",
+  "must_read_back": [
+    {"id": "route_clearance", "desc": "ATC route clearances (destination, SID/route, initial level)"},
+    {"id": "runway", "desc": "Clearances to enter, land on, take off from, hold short of, cross, taxi or backtrack on any runway"},
+    {"id": "runway_in_use", "desc": "Runway in use"},
+    {"id": "altimeter", "desc": "Altimeter settings (QNH / QFE)"},
+    {"id": "squawk", "desc": "SSR codes"},
+    {"id": "frequency", "desc": "Newly assigned communication channels (frequencies)"},
+    {"id": "level", "desc": "Level instructions (altitude / flight level)"},
+    {"id": "heading", "desc": "Heading instructions"},
+    {"id": "speed", "desc": "Speed instructions"},
+    {"id": "transition_level", "desc": "Transition levels"},
+    {"id": "conditional", "desc": "Conditional clearances (the condition must be read back too)"}
+  ],
+  "always": "End every read-back with your callsign."
+}
